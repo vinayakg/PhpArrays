@@ -33,6 +33,7 @@ function GetSignature($arr)
 }
 function GetMD5HashData()
 {
-    
+    return md5($signature);
+
 }
 ?>
